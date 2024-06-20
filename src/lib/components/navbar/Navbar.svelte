@@ -38,16 +38,15 @@
                 </g>
             </svg>
             <div class="navigation">
-                <a sveltekit:prefetch href="/{$locale}/wallet">{$LL.navbar.wallet()}</a>
-                <a sveltekit:prefetch href="/{$locale}/hugin">{$LL.navbar.hugin()}</a>
-                <a sveltekit:prefetch href="/{$locale}/mining">{$LL.navbar.mining()}</a>
-                <a href="https://store.kryptokrona.org/" target="_blank">Store</a>
+                <a sveltekit:prefetch href="/{$locale}/wallet">Services</a>
+                <a sveltekit:prefetch href="/{$locale}/mining">Team</a>
+                <a href="https://store.kryptokrona.org/" target="_blank">Careers</a>
 
                 <!--
                 <a sveltekit:prefetch href="/{locale}/articles">{$LL.navbar.articles()}</a>
                 -->
-                <a sveltekit:prefetch href="/{$locale}/about">{$LL.navbar.about()}</a>
-                <LinkButton text="Discord" url="https://discord.gg/nRK5k7wYy8" enabled={true} target="_blank"/>
+                <a sveltekit:prefetch href="/{$locale}/about">About Us</a>
+                <a sveltekit:prefetch href="/{$locale}/hugin">Contact Us</a>
             </div>
         </div>
     </div>
