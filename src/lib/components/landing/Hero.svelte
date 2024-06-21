@@ -3,8 +3,8 @@
 </script>
 
 <div class="text">
-    <h1>{$LL.components.hero.title()}</h1>
-    <p>{$LL.components.hero.text()}</p>
+    <h1>Helikoid AI</h1>
+    <h2>BREATHE LIFE INTO YOUR SYSTEMS WITH CUTTING-EDGE AI SOLUTIONS</h2>
 </div>
 
 <style lang="scss">

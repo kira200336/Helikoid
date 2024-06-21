@@ -16,7 +16,6 @@
 </script>
 
 <nav>
-    <Alert/>
     <div class="wrapper container">
         <div class="nav-wrapper">
             <a href="/{$locale}">
@@ -38,15 +37,14 @@
                 </g>
             </svg>
             <div class="navigation">
-                <a sveltekit:prefetch href="/{$locale}/wallet">Services</a>
+                <a sveltekit:prefetch href="/{$locale}/services">Services</a>
                 <a sveltekit:prefetch href="/{$locale}/mining">Team</a>
-                <a href="https://store.kryptokrona.org/" target="_blank">Careers</a>
 
                 <!--
                 <a sveltekit:prefetch href="/{locale}/articles">{$LL.navbar.articles()}</a>
                 -->
                 <a sveltekit:prefetch href="/{$locale}/about">About Us</a>
-                <a sveltekit:prefetch href="/{$locale}/hugin">Contact Us</a>
+                <a sveltekit:prefetch href="/{$locale}/contact">Contact Us</a>
             </div>
         </div>
     </div>
