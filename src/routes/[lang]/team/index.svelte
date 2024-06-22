@@ -1,13 +1,9 @@
 <script>
-    import SignupNewsletter from "$lib/components/SignupNewsletter.svelte";
-    import Hero from "$lib/components/landing/Hero.svelte";
-    import Features from "$lib/components/landing/Features.svelte";
-    import Community from "$lib/components/landing/Community.svelte";
-
+    import Team from "../../../lib/components/teams/Teams.svelte";
 </script>
 
 <svelte:head>
-    <title>Helikoid</title>
+    <title>Helikoid | Team</title>
     <meta property="og:site_name" content="Helikoid"/>
     <meta name="description"
           content="Breath Life Into Your Systems With Cutting-edge AI Solutions">
@@ -20,28 +16,35 @@
     <meta property="og:locale" content="en"/>
 </svelte:head>
 
-<div class="container flex">
-    <div>
-        <Hero/>
-        <br>
-        <h1>Our Services</h1>
-        <Features/>
-        <Community/>  
-    </div>
-    <div>
-        <SignupNewsletter/>
-    </div>
+
+<div class="wrapper container">
+    <h1>Teams</h1>
+    <Team/>
 </div>
 
 <style lang="scss">
 
-  .flex {
-    display: flex;
-    flex-direction: column;
-    gap: 10rem;
+  .wrapper {
+    margin-top: 160px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
 
-    @media screen and (max-width: 568px){
-      gap: 5rem;
+    @media screen and (max-width: 568px) {
+      margin-top: 60px;
+    }
+  }
+
+  .text-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .tools {
+    display: flex;
+    gap: 1rem;
+    margin: 4rem 0;
+
+    @media only screen and (max-width: 1000px) {
+      flex-direction: column;
     }
   }
 

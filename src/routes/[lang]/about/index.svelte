@@ -1,6 +1,4 @@
 <script>
-    import StatusBar from "$lib/components/StatusBar.svelte";
-    import {network} from "$lib/stores/store";
     import LL from "$i18n/i18n-svelte";
 
     const about = [
@@ -29,22 +27,22 @@
 </script>
 
 <svelte:head>
-    <title>Kryptokrona - About us</title>
-    <meta property="og:site_name" content="About Kryptokrona" />
+    <title>Helikoid | About Us</title>
+    <meta property="og:site_name" content="About Helikoid"/>
     <meta name="description"
-          content="Here you can read more about the project">
-    <meta property="og:title" content="Kryptokrona - About us"/>
-    <meta property="og:description" content="Here you can read more about the project"/>
-    <meta property="og:image" content="https://kryptokrona.org/ogabout.png">
-    <meta property="og:url" content="https://kryptokrona.org/about" />
-    <meta property="og:locale" content="en" />
-    <link rel="alternate" href="https://kryptokrona.org/about" hreflang="en"/>
-    <link rel="alternate" href="https://kryptokrona.org/about" hreflang="x-default"/>
+          content="Breath Life Into Your Systems With Cutting-edge AI Solutions">
+    <meta property="og:title" content="Helikoid | About Us"/>
+    <meta property="og:description"
+          content="Breath Life Into Your Systems With Cutting-edge AI Solutions"/>
+    <meta property="og:image" content="https://helikoid.ai/image.png">
+    <meta property="og:url" content="https://helikoid.ai/about"/>
+    <link rel="alternate" href="https://helikoid.ai" hreflang="en"/>
+    <meta property="og:locale" content="en"/>
 </svelte:head>
 
 <div class="container">
     <div class="text-wrapper">
-        <h1>{$LL.about.title()}</h1>
+        <h1>About</h1>
         <h2>{$LL.about.subTitle()}</h2>
         <p>{$LL.about.mainText1()}</p>
         <p>{$LL.about.mainText2()}</p>
@@ -55,7 +53,6 @@
             <h2>{$LL.about.maxSupply()}</h2>
             <p>1,000,000,000 XKR</p>
             <h2>{$LL.about.currentSupply()}</h2>
-            <p>{$network.supply} XKR</p>
         </div>
         {#each about as card}
             <div class="layered-shadow">
@@ -64,7 +61,6 @@
             </div>
         {/each}
     </div>
-    <StatusBar/>
 </div>
 
 <style lang="scss">

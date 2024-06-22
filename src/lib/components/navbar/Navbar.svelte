@@ -1,5 +1,4 @@
 <script>
-    import Alert from "./Alert.svelte";
     import Sidebar from "./Sidebar.svelte";
     import {locale, LL} from "$i18n/i18n-svelte";
     import LinkButton from "../buttons/LinkButton.svelte";
@@ -38,11 +37,7 @@
             </svg>
             <div class="navigation">
                 <a sveltekit:prefetch href="/{$locale}/services">Services</a>
-                <a sveltekit:prefetch href="/{$locale}/mining">Team</a>
-
-                <!--
-                <a sveltekit:prefetch href="/{locale}/articles">{$LL.navbar.articles()}</a>
-                -->
+                <a sveltekit:prefetch href="/{$locale}/team">Team</a>
                 <a sveltekit:prefetch href="/{$locale}/about">About Us</a>
                 <a sveltekit:prefetch href="/{$locale}/contact">Contact Us</a>
             </div>

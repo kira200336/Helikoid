@@ -7,19 +7,17 @@
             <div class="footer-navigation">
                 <div>
                     <h3>Navigation</h3>
-                    <a href="/{$locale}">{$LL.footer.home()}</a>
-                    <a href="/{$locale}/wallet">{$LL.footer.wallet()}</a>
-                    <a href="/{$locale}/hugin">Hugin</a>
-                    <a href="/{$locale}/mining">{$LL.footer.mining()}</a>
-                    <a href="https://kryptokrona.se/store/">{$LL.footer.store()}</a>
-                    <a href="/{$locale}/about">{$LL.footer.about()}</a>
+                    <a href="/{$locale}">Home</a>
+                    <a href="/{$locale}/wallet">Services</a>
+                    <a href="/{$locale}/team">Team</a>
+                    <a href="/{$locale}/about">About</a>
+                    <a href="/{$locale}/contact">Contact</a>
                 </div>
                 <div>
                     <h3>Links</h3>
-                    <a href="https://explorer.kryptokrona.org">Explorer</a>
-                    <a href="https://github.com/kryptokrona/xkr-website/blob/main/static/Whitepaper/Proposal_for_a_New_Nordic_Digital_Currency.pdf">Whitepaper</a>
-                    <a href="https://github.com/kryptokrona/kryptokrona-stickers">{$LL.footer.stickers()}</a>
-                    <a href="https://docs.kryptokrona.org">{$LL.footer.docs()}</a>
+                    <a href="https://explorer.kryptokrona.org">Instagram</a>
+                    <a href="https://github.com/kryptokrona/xkr-website/blob/main/static/Whitepaper/Proposal_for_a_New_Nordic_Digital_Currency.pdf">Twitter</a>
+                    <a href="https://github.com/kryptokrona/kryptokrona-stickers">Gmail</a>
                     <a href="https://github.com/kryptokrona">Github</a>
                 </div>
             </div>

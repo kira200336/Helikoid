@@ -1,41 +1,40 @@
 <script>
     import LinkArrow from "../icons/LinkArrow.svelte";
-    import {LL, locale} from "$i18n/i18n-svelte";
 </script>
 
 <div class="grid gap" id="community">
     <div class="row text">
-        <h2>{$LL.components.community.title()}</h2>
-        <p>{$LL.components.community.text()}</p>
+        <h2>Blog</h2>
+        <p>Explore the most recent advancements in AI development, as shared by our industry leading engineers.</p>
     </div>
     <div class="row grid gap">
         <a class="platform layered-shadow" href="https://hugin.chat" target="_blank">
             <div>
-                <h3>Hugin</h3>
+                <h3>Introducing Agentive By Morningside AI</h3>
                 <LinkArrow/>
             </div>
-            <p>{$LL.components.community.huginText()}</p>
+            <p>Explore Agentive: Streamlining the Creation, Management, and Deployment of Advanced AI Agents</p>
         </a>
         <a class="platform layered-shadow" href="https://discord.gg/nRK5k7wYy8" target="_blank">
             <div>
-                <h3>Discord</h3>
+                <h3>An Inside Look Into Our Team at Morningside AI</h3>
                 <LinkArrow/>
             </div>
-            <p>{$LL.components.community.discordText()}</p>
+            <p>Meet the team behind Morningside AI and learn more about how we are cultivating a culture of innovation and collaboration.</p>
         </a>
         <a class="platform layered-shadow" href="https://t.me/xkrofficial" target="_blank">
             <div>
-                <h3>Telegram</h3>
+                <h3>What OpenAI's Devday Announcements Mean For Your Business. </h3>
                 <LinkArrow/>
             </div>
-            <p>{$LL.components.community.telegramText()}</p>
+            <p>A Discussion with Morningside's CEO, Liam Ottley, and CTO, Spencer Porter, on the Implications of OpenAI's Recent Announcements for Your Business.</p>
         </a>
         <a class="platform layered-shadow" href="https://twitter.com/kryptokrona" target="_blank">
             <div>
-                <h3>Twitter</h3>
+                <h3>Our State-of-the-Art Natural Language to SQL Innovation</h3>
                 <LinkArrow/>
             </div>
-            <p>{$LL.components.community.twitterText()}</p>
+            <p>Get an inside look into how Morningside AI is surpassing SOTA performance for Natural Language to SQL. </p>
         </a>
     </div>
 </div>

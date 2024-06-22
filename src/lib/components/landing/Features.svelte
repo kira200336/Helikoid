@@ -4,28 +4,28 @@
 
     const features = [
         {
-            title: $LL.components.features.title1(),
-            text: $LL.components.features.text1()
+            title: "Workflow Automation",
+            text: "Through our deep understanding of AI and its potential, we design agents that can predictively automate tasks, reducing manual intervention and the chances for human error. Whether you're looking to streamline administrative processes, enhance data operations, or elevate customer interactions, our bespoke autonomous agents are built to integrate seamlessly into your environment."
         },
         {
-            title: $LL.components.features.title2(),
-            text: $LL.components.features.text2()
+            title: "Natural Language to SQL",
+            text: "Our solution transforms natural language queries into precise SQL statements, allowing users to retrieve, manipulate, and analyze data without the need to understand intricate SQL syntax. Empowering both non-tech professionals and experienced developers alike, we bridge the gap between human language and database queries, making data-driven decisions accessible to all."
         },
         {
-            title: $LL.components.features.title3(),
-            text: $LL.components.features.text3()
+            title: "Complex Data Pipelines",
+            text: "Our expertise lies in designing and deploying data pipelines that handle large-scale, multi-dimensional data. Whether you're dealing with real-time data streams, batch processing, or a hybrid, our autonomous agents optimize processes, ensuring data integrity, and timely delivery for advanced analytics and machine learning applications."
         },
         {
-            title: $LL.components.features.title4(),
-            text: $LL.components.features.text4()
+            title: "Self-Adaptive Decision Systems",
+            text: "Our self-adaptive solutions harness the full potential of autonomous agents, enabling them to make decisions based on real-time data, past experiences, and predictive analytics. This continuous loop of learning and adapting ensures that your business stays ahead of the curve, optimizing operations and strategizing for future scenarios."
         },
         {
-            title: $LL.components.features.title5(),
-            text: $LL.components.features.text5()
+            title: "Use Case Identification",
+            text: "Our consultants engage in a deep-dive analysis of your organization's operations, culture, and aspirations. By weaving together this understanding with our vast knowledge of AI advancements, we illuminate AI opportunities that resonate with your business objectives and industry dynamics."
         },
         {
-            title: $LL.components.features.title6(),
-            text: $LL.components.features.text6()
+            title: "Feasibility Assessments",
+            text: "With a meticulous approach, our consultants evaluate the technical, operational, and financial aspects of your AI aspirations. This comprehensive assessment ensures that every AI project you undertake is actionable and aligns with your business's infrastructure, goals, and resources."
         },
     ]
 </script>
@@ -49,7 +49,7 @@
 
 
     div {
-      grid-column: span 4 / span 4;
+      grid-column: span 6 / span 6;
       padding: 1.25rem;
       min-height: 200px;
       border: 1px solid var(--card-border);

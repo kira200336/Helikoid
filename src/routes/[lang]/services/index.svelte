@@ -1,24 +1,25 @@
 <script>
-import DownloadWallet from "$lib/components/DownloadWallet.svelte";
+    import Features from "$lib/components/landing/Features.svelte";
 </script>
 
 <svelte:head>
-    <title>Kryptokrona - Download a XKR wallet</title>
-    <meta property="og:site_name" content="Kryptokrona" />
+    <title>Helikoid | Services</title>
+    <meta property="og:site_name" content="Helikoid"/>
     <meta name="description"
-          content="A selection of kryptokrona wallets, pick your preferred wallet and manke sure to back it up.">
-    <meta property="og:title" content="Kryptokrona - Download a XKR wallet"/>
-    <meta property="og:description" content="A selection of kryptokrona wallets, pick your preferred wallet and manke sure to back it up."/>
-    <meta property="og:image" content="https://kryptokrona.org/ogwallet.png">
-    <meta property="og:url" content="https://kryptokrona.org/wallet" />
-    <meta property="og:locale" content="en" />
-    <link rel="alternate" href="https://kryptokrona.org/wallet" hreflang="en"/>
+          content="Breath Life Into Your Systems With Cutting-edge AI Solutions">
+    <meta property="og:title" content="Helikoid"/>
+    <meta property="og:description"
+          content="Breath Life Into Your Systems With Cutting-edge AI Solutions"/>
+    <meta property="og:image" content="https://helikoid.ai/image.png">
+    <meta property="og:url" content="https://helikoid.ai"/>
+    <link rel="alternate" href="https://helikoid.ai" hreflang="en"/>
+    <meta property="og:locale" content="en"/>
 </svelte:head>
 
 <div class="wrapper container">
-    <h1>Wallet</h1>
+    <h1>Our Services</h1>
 
-    <DownloadWallet/>
+    <Features/>
 </div>
 
 <style lang="scss">

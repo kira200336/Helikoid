@@ -1,13 +1,6 @@
 <script>
 import {fade} from "svelte/transition";
-import LinkButton from "./buttons/LinkButton.svelte";
-import {api} from "../stores/api.js";
-import moment from "moment/moment.js";
-import {get_avatar} from "../utils/get-avatar.js";
 
-const avatar = (adr) => {
-    return get_avatar(adr)
-}
 </script>
 
 <div class="app">
@@ -20,35 +13,6 @@ const avatar = (adr) => {
             <div class="action small">
                 <h2>Want to join the conversation?</h2>
                 <p>Download Hugin Messenger and get 5 XKR to start chatting straight away!</p>
-                <LinkButton text="Download" enabled={true}/>
-            </div>
-        </div>
-        <div class="action-mobile">
-            <h2>Want to join the conversation?</h2>
-            <p>Download Hugin Messenger and get 5 XKR to start chatting straight away!</p>
-            <LinkButton text="Download" url="https://hugin.chat" target="_blank" enabled={true}/>
-        </div>
-        <div class="posts">
-                {#each $api as post}
-                    <div in:fade class="post">
-                        <div style="display: flex; justify-content: space-between">
-                            <div style="display: flex; align-items: center; margin: -10px 0 0 -10px">
-                                <img class="avatar" src="data:image/png;base64,{avatar(post.key)}" alt="">
-                                <h4>{post.nickname ? post.nickname : 'Anonymous'}</h4>
-                            </div>
-                            <h5>{moment(post.time * 1000).fromNow()}</h5>
-                        </div>
-
-                        <p>{@html post.message}</p>
-                    </div>
-                {/each}
-
-        </div>
-        <div class="col right">
-            <div class="action">
-                <h2>Want to join the conversation?</h2>
-                <p>Download Hugin Messenger and get 5 XKR to start chatting straight away!</p>
-                <LinkButton text="Download" url="https://hugin.chat" target="_blank" enabled={true}/>
             </div>
         </div>
     </div>
