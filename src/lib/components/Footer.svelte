@@ -9,6 +9,7 @@
                     <h3>Navigation</h3>
                     <a href="/{$locale}">Home</a>
                     <a href="/{$locale}/wallet">Services</a>
+                    <a href="/{$locale}/blog">Blog</a>
                     <a href="/{$locale}/team">Team</a>
                     <a href="/{$locale}/about">About</a>
                     <a href="/{$locale}/contact">Contact</a>
