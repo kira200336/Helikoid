@@ -1,15 +1,16 @@
 <script>
     import {locale, LL} from "$i18n/i18n-svelte";
+    import Josh from '$lib/images/Josh_Brown.png';
 
     const features = [
         {
-            src: "{locale}/../../../../static/teams/Josh_Brown.png",
+            src: "Josh_Brown.png",
             title: "Josh Brown",
             text: "Co-Founder",
             linkedin: "https://www.linkedin.com/in/liamottley/"
         },
         {
-            src: "{locale}/../../../../static/teams/Liam_Ottley.png",
+            src: "./Liam_Ottley.png",
             title: "Liam Ottley",
             text: "Co-Founder",
             linkedin: "https://www.linkedin.com/in/liamottley/"
@@ -23,7 +24,7 @@
 <div class="features">
     {#each features as card}
         <div class="layered-shadow">
-            <img src="{card.src}" width=100% class="team-img" alt="{card.title}">
+            <img src="{Josh}" width=100% class="team-img" alt="{card.title}">
             <h2>{card.title}</h2>
             <p>{card.text}</p>
             <a href={card.linkedin} target="_blank" class="w-inline-block"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
