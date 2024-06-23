@@ -1,6 +1,10 @@
 <script>
     const features = [
         {
+            title: "Custom Chatbot Development",
+            text: "We develop custom AI chatbots that act as intelligent assistants, ensuring 24/7 support and rapid query resolution. Our chatbots maximize engagement and productivity, guiding your employees and customers to the information they need and enabling your team to focus on core business imperatives. Partner with us to unlock the power of AI-powered conversations."
+        },
+        {
             title: "Workflow Automation",
             text: "Through our deep understanding of AI and its potential, we design agents that can predictively automate tasks, reducing manual intervention and the chances for human error. Whether you're looking to streamline administrative processes, enhance data operations, or elevate customer interactions, our bespoke autonomous agents are built to integrate seamlessly into your environment."
         },
@@ -19,11 +23,7 @@
         {
             title: "Use Case Identification",
             text: "Our consultants engage in a deep-dive analysis of your organization's operations, culture, and aspirations. By weaving together this understanding with our vast knowledge of AI advancements, we illuminate AI opportunities that resonate with your business objectives and industry dynamics."
-        },
-        {
-            title: "Feasibility Assessments",
-            text: "With a meticulous approach, our consultants evaluate the technical, operational, and financial aspects of your AI aspirations. This comprehensive assessment ensures that every AI project you undertake is actionable and aligns with your business's infrastructure, goals, and resources."
-        },
+        }
     ]
 </script>
 <div class="wrapper">

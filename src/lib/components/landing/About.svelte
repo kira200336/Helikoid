@@ -5,37 +5,7 @@
 <div class="grid gap" id="community">
     <div class="row text">
         <h2>About Us</h2>
-        <p>Explore the most recent advancements in AI development, as shared by our industry leading engineers.</p>
-    </div>
-    <div class="row grid gap">
-        <a class="platform layered-shadow" href="https://hugin.chat" target="_blank">
-            <div>
-                <h3>Introducing Agentive By Morningside AI</h3>
-                <LinkArrow/>
-            </div>
-            <p>Explore Agentive: Streamlining the Creation, Management, and Deployment of Advanced AI Agents</p>
-        </a>
-        <a class="platform layered-shadow" href="https://discord.gg/nRK5k7wYy8" target="_blank">
-            <div>
-                <h3>An Inside Look Into Our Team at Morningside AI</h3>
-                <LinkArrow/>
-            </div>
-            <p>Meet the team behind Morningside AI and learn more about how we are cultivating a culture of innovation and collaboration.</p>
-        </a>
-        <a class="platform layered-shadow" href="https://t.me/xkrofficial" target="_blank">
-            <div>
-                <h3>What OpenAI's Devday Announcements Mean For Your Business. </h3>
-                <LinkArrow/>
-            </div>
-            <p>A Discussion with Morningside's CEO, Liam Ottley, and CTO, Spencer Porter, on the Implications of OpenAI's Recent Announcements for Your Business.</p>
-        </a>
-        <a class="platform layered-shadow" href="https://twitter.com/kryptokrona" target="_blank">
-            <div>
-                <h3>Our State-of-the-Art Natural Language to SQL Innovation</h3>
-                <LinkArrow/>
-            </div>
-            <p>Get an inside look into how Morningside AI is surpassing SOTA performance for Natural Language to SQL. </p>
-        </a>
+        <p>Our AI Automation Agency is your go-to partner for integrating AI and automation into your business, from initial conception to full-scale implementation and continuous support. We’re not just experts in AI and automation, we’re the team dedicated to transforming businesses into smarter, more efficient, and cutting-edge entities. Guided by our founder, Jamal Dahbi, we walk you through the entire transformation process, turning your vision into actionable, impactful solutions. With extensive expertise across various industries, we’ll help you craft an innovative strategy that not only optimizes efficiency but also accelerates growth, laying the groundwork for your company’s future success.</p>
     </div>
 </div>
 

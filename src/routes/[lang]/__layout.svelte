@@ -3,7 +3,6 @@
     import LoadingScreen from "$lib/components/LoadingScreen.svelte";
     import Navbar from "$lib/components/navbar/Navbar.svelte";
     import Footer from "$lib/components/Footer.svelte";
-    import FixedBanner from "$lib/components/FixedBanner.svelte";
 
     //Global scss
     import '$lib/theme/global.scss'
@@ -28,7 +27,6 @@
 <Navbar/>
 <main>
     <slot/>
-</main>
-<FixedBanner/>
+</main> 
 <Footer/>
 
