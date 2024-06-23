@@ -1,8 +1,8 @@
 <script>
     import SignupNewsletter from "$lib/components/SignupNewsletter.svelte";
     import Hero from "$lib/components/landing/Hero.svelte";
-    import Features from "$lib/components/landing/Features.svelte";
-    import Community from "$lib/components/landing/Community.svelte";
+    import Services from "$lib/components/landing/Services.svelte";
+    import Blog from "$lib/components/landing/Blog.svelte";
 
 </script>
 
@@ -24,9 +24,8 @@
     <div>
         <Hero/>
         <br>
-        <h1>Our Services</h1>
-        <Features/>
-        <Community/>  
+        <Services/>
+        <Blog/>  
     </div>
     <div>
         <SignupNewsletter/>

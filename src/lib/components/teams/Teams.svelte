@@ -1,6 +1,4 @@
 <script>
-    //Feature texts
-    import {LL, locale} from "$i18n/i18n-svelte";
 
     const features = [
         {
@@ -17,7 +15,10 @@
         }
     ]
 </script>
-
+<div class="wrapper">
+    <h2>Team</h2>
+    <p>Meet our industry leading leadership team.</p>
+</div>
 <div class="features">
     {#each features as card}
         <div class="layered-shadow">
@@ -32,6 +33,18 @@
 </div>
 
 <style lang="scss">
+  .wrapper {
+    h2 {
+      font-size: 3rem;
+
+      @media screen and (max-width: 568px) {
+        font-size: 2rem;
+      }
+    }
+    p {
+      margin: 0;
+    }
+  }
   .features {
     margin: 1rem 0;
     display: grid;

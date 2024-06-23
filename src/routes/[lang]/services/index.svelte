@@ -1,5 +1,5 @@
 <script>
-    import Features from "$lib/components/landing/Features.svelte";
+    import Services from "$lib/components/landing/Services.svelte";
 </script>
 
 <svelte:head>
@@ -17,9 +17,7 @@
 </svelte:head>
 
 <div class="wrapper container">
-    <h1>Our Services</h1>
-
-    <Features/>
+    <Services/>
 </div>
 
 <style lang="scss">

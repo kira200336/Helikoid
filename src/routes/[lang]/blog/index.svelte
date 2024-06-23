@@ -1,9 +1,9 @@
 <script>
-    import About from "$lib/components/landing/About.svelte";
+    import Blog from "$lib/components/landing/Blog.svelte";
 </script>
 
 <svelte:head>
-    <title>Helikoid | About</title>
+    <title>Helikoid | Blog</title>
     <meta property="og:site_name" content="Helikoid"/>
     <meta name="description"
           content="Breath Life Into Your Systems With Cutting-edge AI Solutions">
@@ -17,7 +17,7 @@
 </svelte:head>
 
 <div class="wrapper container">
-    <About/>
+    <Blog/>
 </div>
 
 <style lang="scss">

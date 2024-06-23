@@ -16,36 +16,25 @@
     <meta property="og:locale" content="en"/>
 </svelte:head>
 
-
 <div class="wrapper container">
-    <h1>Teams</h1>
     <Team/>
 </div>
 
 <style lang="scss">
-
   .wrapper {
     margin-top: 160px;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
+    gap: 20px;
+
+    h1 {
+      margin: 0;
+    }
 
     @media screen and (max-width: 568px) {
       margin-top: 60px;
     }
   }
-
-  .text-wrapper {
-    margin-bottom: 60px;
-  }
-
-  .tools {
-    display: flex;
-    gap: 1rem;
-    margin: 4rem 0;
-
-    @media only screen and (max-width: 1000px) {
-      flex-direction: column;
-    }
-  }
-
 </style>

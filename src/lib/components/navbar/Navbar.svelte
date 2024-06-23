@@ -37,6 +37,7 @@
             </svg>
             <div class="navigation">
                 <a sveltekit:prefetch href="/{$locale}/services">Services</a>
+                <a sveltekit:prefetch href="/{$locale}/blog">Blog</a>
                 <a sveltekit:prefetch href="/{$locale}/team">Team</a>
                 <a sveltekit:prefetch href="/{$locale}/about">About Us</a>
                 <a sveltekit:prefetch href="/{$locale}/contact">Contact Us</a>

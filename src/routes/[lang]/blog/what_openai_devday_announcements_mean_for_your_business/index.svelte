@@ -1,9 +1,9 @@
 <script>
-    import About from "$lib/components/landing/About.svelte";
+    import Blog from "$lib/components/landing/Blog.svelte";
 </script>
 
 <svelte:head>
-    <title>Helikoid | About</title>
+    <title>Helikoid</title>
     <meta property="og:site_name" content="Helikoid"/>
     <meta name="description"
           content="Breath Life Into Your Systems With Cutting-edge AI Solutions">
@@ -17,7 +17,10 @@
 </svelte:head>
 
 <div class="wrapper container">
-    <About/>
+    <h1>Devday Recap: Helikoid AI's Take on OpenAI's Latest Innovations</h1>
+    <p>Recently, OpenAI's first-ever Devday event unfolded, unveiling a host of groundbreaking advancements that are set to redefine the AI landscape. At Morningside AI, we're buzzing with excitement about these developments and their potential to revolutionize the industry.</p>
+    <h3>Diving Deeper: Insights from Helikoid's Leaders</h3>
+    <p>Liam Ottley, our CEO, and Spencer Porter, our CTO, recently engaged in an enlightening conversation, dissecting these announcements and their impact on businesses like yours.</p>
 </div>
 
 <style lang="scss">

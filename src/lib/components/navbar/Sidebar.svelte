@@ -10,6 +10,7 @@
         <div></div>
         <div class="navigation">
             <a sveltekit:prefetch class="mobile-link" in:fade="{{delay: 250, duration: 500}}" out:fade="{{delay: 550}}" href="/{$locale}/services">Services</a>
+            <a sveltekit:prefetch class="mobile-link" in:fade="{{delay: 350, duration: 500}}" out:fade="{{delay: 450}}" href="/{$locale}/blog">Blog</a>
             <a sveltekit:prefetch class="mobile-link" in:fade="{{delay: 350, duration: 500}}" out:fade="{{delay: 450}}" href="/{$locale}/team">Team</a>
             <a sveltekit:prefetch class="mobile-link" in:fade="{{delay: 450, duration: 500}}" out:fade="{{delay: 350}}" href="/{$locale}/about">About Us</a>
             <a sveltekit:prefetch class="mobile-link" in:fade="{{delay: 650, duration: 500}}" out:fade="{{delay: 150}}" href="/{$locale}/contact">Contact Us</a>
